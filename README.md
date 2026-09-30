@@ -128,17 +128,19 @@ The registry also has a users.yaml configuration.
 
 Add your GitHub username:
 
+```
 weuritz8u: true
-
+```
 
 Only users whose value is true are processed.
 
 For example:
 
+```yaml
 weuritz8u: true
 alice: true
 bob: false
-
+```
 
 weuritz8u and alice will be included, while bob will be ignored.
 
